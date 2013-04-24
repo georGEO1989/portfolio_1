@@ -1,0 +1,398 @@
+/*Reset Styles*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+	border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym { border:0;
+}
+ 
+/*Global Styles*/
+
+* {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+	
+
+/* For modern browsers */
+.cf:before,
+.cf:after {
+  content:"";
+  display:table;
+}
+ 
+.cf:after {
+clear:both;
+}
+ 
+/* For IE 6/7 (triggers hasLayout) */
+.cf {
+  *zoom:1;
+}
+
+
+body  {
+	width: 100%;
+	height: 100%;
+	font-family: arial, sans-serif, helvetica;
+	}
+	
+header  {
+	background-color: #000000;
+	width: 100%;
+	height: 50px;
+	position: relative;
+	}
+	
+.inner_hdr  {
+	width: 960px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+	/*text-align: center;*/
+	}		
+
+.logo  {
+	float: left;
+	}
+	
+.cta  {
+	color: #FFFFFF;
+	width: 140px;
+	height: 28px;
+	background-color: #104DA8;
+	float: left;
+	position: relative;
+	top: 10px;
+	left: 60px;
+	text-align: center;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding-top: 4px;
+}
+
+.cta a  {
+	color: #FFF;
+	text-decoration: none;
+}
+
+/*Nav*/
+
+.nav_conatainer  {
+	/*text-align: center;*/
+	float: right;
+}
+
+nav ul a{
+	width: 100px;
+	color: #FFFFFF;
+	list-style-type: none;
+	text-decoration: none;
+	font-size: 1.25em;
+	font-weight: bold;
+	position: relative;
+	top: 10px;
+	text-align: center;
+	float: left;
+	margin-left: 20px;
+	/*border-bottom: 1px solid #FFFFFF;*/
+	}	
+	
+nav ul a:hover  {
+	-webkit-transition: 0.1s ease-in-out;
+            transition: 0.1s ease-in-out;
+	border-bottom: 1px solid #FFFFFF;
+	/*-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	transform: scale(1.5);*/
+}
+ul li  {
+	display: inline;
+}	
+
+/*Home Page*/	
+
+/*Hero Unit index.html*/	
+#outer_hero_unit  {
+	background-image: url('../images/bg_hero_unit.png');
+	background-repeat: repeat-x;
+	width: 100%;
+	height: 50%;
+}	
+
+#inner_hero_unit  {
+	width: 960px;
+	height: 400px;
+	margin: 0 auto;
+	border: 1px solid rgba(0, 0, 0, .05);
+}
+
+.tagline  {
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 1.875em;
+	font-weight: normal;
+	margin-top: 16px;
+}
+
+/*Hero Unit Box Titles*/
+
+.box_title  {
+	display: inline;
+	font-size: 1.125em;
+	color: #FFFFFF;
+	font-weight: bold;
+	position: relative;
+	top: 30px;
+}
+
+#title_1  {
+	float: left;
+	position: relative;
+	left: 117px;
+}
+
+#title_2  {
+	float: left;
+	position: relative;
+	left: 310px;
+}
+
+#title_3  {
+	float: right;
+	position: relative;
+	right: 91px;
+}
+
+/*HU Boxes*/
+
+.box_container  {
+	width: 960px;
+}
+
+.first_hu_box  {
+	border: solid 1px #00004D;
+	float: left;
+	border: 3px solid rgb(0, 0, 0);
+    border: 3px solid rgba(0, 0, 0, .20);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    position: relative;
+    right: 20px;
+}
+
+.second_hu_box  {
+	border: solid 1px #00004D;
+	float: left;
+	border: 3px solid rgb(0, 0, 0);
+    border: 3px solid rgba(0, 0, 0, .20);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    position: relative;
+	right: 10px;
+}
+	
+.third_hu_box  {
+	border: solid 1px #00004D;
+	border: 3px solid rgb(0, 0, 0);
+    border: 3px solid rgba(0, 0, 0, .20);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    position: relative;
+	right: 10px;
+}
+
+.box  {
+	background-color: #99E5FF;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	width: 240px;
+	height: 150px;
+	margin-left: 70px;
+	position: relative;
+	top: 36px;
+	padding: 18px;
+	float: left;
+}
+
+.learn_more_btn  {
+	width: 175px;
+	height: 33px;
+	background-color: #FF9900;
+	color: #FFFFFF;
+	font-size: 18px;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	top: 20px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.learn_more_btn a  {
+	position: relative;
+	top: 5px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.hu_box_hdr  {
+	text-align: center;
+	font-weight: bold;
+}
+
+/*End Of Home Page*/
+
+
+/*Footer*/
+footer  {
+	width: 100%;
+	height: 30px;
+	/*background-color: #000000;*/
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:30px;
+}
+
+.inner_footer  {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.footer_name {
+	color: #000000;
+	float: left;
+	font-weight: bold;
+}
+
+.inner_footer a  {
+	color: #000000;
+	text-decoration: none;
+	float: left;
+	position: relative;
+	left: 20px;
+}
+
+.lower_section  {
+	width: 960px;
+	height: 196px;
+	margin: 0 auto;
+	/*border: 1px solid black;*/
+	/*text-align: center;*/
+}
+
+a.footer_email  {
+	float: right;
+	font-weight: bold;
+}
+
+a.footer_email:hover  {
+	border-bottom: 1px solid #000000
+}
+
+/*Inner Page*/
+
+.content_wrapper  {
+	width: 960px;
+	margin: 0 auto;
+
+}
+
+.page_title  {
+	font-size: 1.75em;
+	font-weight: bold;
+	position: relative;
+	top: 43px;
+}
+
+/*About Page, and others*/
+.content_wrapper p {
+	font-size: 1.125em;
+	font-weight: bold;
+	position: relative;
+	top: 93px;
+}
+
+/*End Of About Page*/
+
+/*Work Page*/
+
+/*End Work Page*/
+
+
+/*Start Contact Page*/
+
+.external_pages  {
+	position: relative;
+	top: 60px;
+	float: left;
+}
+
+.icons img  {
+	margin-bottom: 16px;
+}
+
+.form_container  {
+	float: right;
+	position: relative;
+	right: 215px;
+	bottom: 30px;
+}
+
+
+.form {
+	position: relative;
+	top: 56px;
+}
+
+.form_input input  {
+	background-color: rgba(0, 0, 0, .20);
+	color: #000;
+	font-size: 1.125em;
+	font-weight: bold;
+	width: 265px;
+	height: 46px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-bottom: 12px;
+	border: 1px solid #FFF; 
+	padding: 5px;
+
+}
+
+.form_input input:focus  {
+	outline: none;
+
+.submit_btn  {
+	width: 100px;
+}
